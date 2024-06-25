@@ -1,0 +1,53 @@
+@import url('../../Fonts.css');
+
+.skills-section {
+  background-color: var(--color-blackcontrast); /* Dark background color */
+  padding: 3rem 0 0 0;
+}
+
+.skills-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--header-color-h1); /* Light color for section titles */
+  margin-bottom: 3rem;
+  font-family: 'Montserrat', sans-serif; /* Montserrat font */
+  position: relative; /* Create a positioning context for pseudo-element */
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width:15rem;
+  height: 4px;
+  background-color: var(--highlight-color); /* Vibrant highlight color */
+  border-radius: 2px;
+}
+
+.skill {
+  background-color: transparent; /* Remove background color */
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.skill-title {
+  font-size: 2.2rem;
+  color: var(--header-color-h2); /* Stronger text color */
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif; /* Roboto font */
+}
+
+.skill-description {
+  font-size: 1.6rem;
+  color: var(--color-text); /* Text color */
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif; /* Roboto font */
+}

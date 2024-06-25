@@ -1,0 +1,42 @@
+#messages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.message {
+  background-color: #ffffff; /* White background for each message */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px;
+  margin: 10px 0;
+  width: 80%; /* Width of each message box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a 3D effect */
+}
+
+.message p {
+  margin: 5px 0; /* Space between paragraphs */
+  font-size: 14px; /* Font size */
+  color: #333; /* Text color */
+}
+
+.message p:first-of-type {
+  font-weight: bold; /* Bold the first paragraph */
+}
+
+#messages-container .message p:nth-child(2) {
+  font-style: italic; /* Italic for the name */
+  color: #555; /* Slightly lighter text color */
+}
+
+#messages-container .message p:nth-child(3) {
+  font-size: 12px; /* Smaller text for the date */
+  color: #999; /* Lighter text color */
+}
+
+#messages-container .message p:nth-child(4) {
+  color: #007bff; /* Blue color for the email */
+  text-decoration: underline; /* Underline for the email */
+}

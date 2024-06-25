@@ -1,0 +1,65 @@
+@import url('../../Fonts.css'); /* Ensure you have the correct path */
+
+:root {
+  --header-color-h1: #F2F2F2;
+  --header-color-h2: #E5E5E5;
+  --highlight-color: #FF6347;
+  --color-highcontrast: #F2F2F2;
+  --color-text: #8C8C8C;
+  --color-strongtext: #404040;
+  --color-bg: #262626;
+  --color-blackcontrast: #0D0D0D;
+}
+
+.languages-section {
+  background-color: var(--color-bg); /* Dark background color */
+  width: 100%;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--color-highcontrast);
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--header-color-h1);
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: var(--highlight-color);
+  border-radius: 2px;
+}
+
+.languages-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.language-item {
+  background-color: var(--color-strongtext);
+  color: var(--color-highcontrast);
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.language-item:hover {
+  background-color: var(--highlight-color);
+  transform: translateY(-5px);
+}
