@@ -52,10 +52,10 @@ function Contact() {
           <button type="submit" onClick={submitMessage}>Send Message</button>
         </form>
         <div className="social-icons">
-          <a href="https://github.com/your-github" target="_blank" aria-label="GitHub" rel="noreferrer">
+          <a href="https://github.com/LudvigOD" target="_blank" aria-label="GitHub" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="https://linkedin.com/in/your-linkedin" target="_blank" aria-label="LinkedIn" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/ludvig-danielsson-17a79b29b/" target="_blank" aria-label="LinkedIn" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
