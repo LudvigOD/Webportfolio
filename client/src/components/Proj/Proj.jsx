@@ -7,22 +7,22 @@ function Proj() {
       <div className="proj">
         <h3>Trading Bot</h3>
         <h4>Satus: Finished</h4>
-        {/* <img src="" alt="Trading Bot Image" /> */}
+        <img src="client/public/pexels-pixabay-210607.jpg" alt="Trading Bot Image" />
       </div>
       <div className="proj">
         <h3>Redis Database</h3>
         <h4>Satus: On going</h4>
-        {/* <img src="" alt="Redis DB Image" /> */}
+        <img src="client/public/pexels-kevin-ku-92347-577585.jpg" alt="Redis DB Image" />
       </div>
       <div className="proj">
         <h3>Web portfolio</h3>
         <h4>Satus: Finished</h4>
-        {/* <img src="" alt="Webportfolio Image" /> */}
+        <img src="client/public/pexels-picjumbo-com-55570-196655.jpg" alt="Webportfolio Image" />
       </div>
       <div className="proj">
         <h3>My own React framework</h3>
         <h4>Satus: Finished</h4>
-        {/* <img src="" alt="React Image" /> */}
+        <img src="client/public/pexels-antonio-batinic-2573434-4164418.jpg" alt="React Image" />
       </div>
     </div>
     
