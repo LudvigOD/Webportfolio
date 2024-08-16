@@ -17,7 +17,7 @@ function Contact() {
     const _date = new Date(tmpDate).toISOString()
 
     try{
-      const docRef = await addDoc(collection(db, 'contact_messeges'), {
+      await addDoc(collection(db, 'contact_messeges'), {
         name, email, message, date: _date
       })
 
