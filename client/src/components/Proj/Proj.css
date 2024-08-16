@@ -5,6 +5,7 @@
   text-align: center;
   color: var(--color-highcontrast);
   font-family: 'Montserrat', sans-serif;
+  display: flex;
 }
 
 .proj-header {

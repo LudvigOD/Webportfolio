@@ -78,7 +78,7 @@ function App() {
       <div id="skill-container">
         <div className="skills-section">
           <h2 className="section-title">My Skills</h2>
-          <div className="skills-grid">
+          {/* <div className="skills-grid">
             <Skillcard
               title="Frontend Development"
               description="Creating responsive and user-friendly interfaces using HTML, CSS, JavaScript and the framework react."
@@ -103,7 +103,7 @@ function App() {
               title="Cloud Computing"
               description="Deploying and managing applications on cloud platforms like AWS and Azure."
             />
-          </div>
+          </div> */}
           <ProgrammingLanguages />
         </div>
       </div>
