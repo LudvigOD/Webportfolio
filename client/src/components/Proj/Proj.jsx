@@ -17,6 +17,7 @@ function Proj() {
       <div className="proj">
         <h3><a href="https://github.com/LudvigOD/Webportfolio">Web portfolio</a></h3>
         <h4>Satus: Finished</h4>
+        <p>This website is that project! no CMS</p>
         <img src="client/public/pexels-picjumbo-com-55570-196655.jpg" alt="Webportfolio Image" />
       </div>
       <div className="proj">
