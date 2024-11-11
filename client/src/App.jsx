@@ -39,7 +39,7 @@ function App() {
     return () => clearInterval(intervalId);
   }, []);
 
-  
+
 
 
 
@@ -52,23 +52,23 @@ function App() {
         <div className="banner-text">
           <h1>
             <TypewriterComponent
-                onInit={(typewriter) => {
-                    typewriter
-                        .typeString("Hello!")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString('My name is <span class="highlight-word">Ludvig</span>!')
-                        .start();
-                }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Hello!")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString('My name is <span class="highlight-word">Ludvig</span>!')
+                  .start();
+              }}
             />
           </h1>
-          <h2>I am a student in Computer Science</h2>
+          <h2>I am a student in Computer Science Engineering</h2>
           <h2>
             At The <span className="highlight-word">Faculty of Engineering</span>, LTH.
           </h2>
         </div>
         <div className="bubble-frame">
-          <Bubble name="SKILLS" icon="🚀" pos="bubble1" id="skill-container"/>
+          <Bubble name="SKILLS" icon="🚀" pos="bubble1" id="skill-container" />
           <Bubble name="PROJECTS" icon="🚧" pos="bubble2" id="proj" />
           <Bubble name="CONTACT" icon="🌐" pos="bubble3" id="contact" />
           <Bubble name="ABOUT ME" icon="🧑‍💻" pos="bubble4" id="about-me" />
