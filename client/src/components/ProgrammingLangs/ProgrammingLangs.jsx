@@ -1,7 +1,7 @@
 import './ProgrammingLangs.css'; // Import the CSS file for styling
 
 const ProgrammingLanguages = () => {
-  const languages = ['Java', 'JavaScript', 'Python', 'C/C++'];
+  const languages = ['Java (advanced)', 'Scala (intermediate)', 'JavaScript (basic)', 'Python (basic)', 'C/C++ (basic)'];
 
   return (
     <div className="languages-section">
