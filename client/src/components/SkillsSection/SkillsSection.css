@@ -1,5 +1,5 @@
 .skills-section {
-  background-color: var(--color-blackcontrast); /* Dark background color */
+  background-color: var(--color-blackcontrast);
   padding: 3rem 0 0 0;
 }
 
@@ -12,10 +12,10 @@
 .section-title {
   text-align: center;
   font-size: 3rem;
-  color: var(--header-color-h1); /* Light color for section titles */
+  color: var(--header-color-h1); 
   margin-bottom: 3rem;
-  font-family: 'Montserrat', sans-serif; /* Montserrat font */
-  position: relative; /* Create a positioning context for pseudo-element */
+  font-family: 'Montserrat', sans-serif; 
+  position: relative; 
 }
 
 .section-title::after {
@@ -26,26 +26,26 @@
   transform: translateX(-50%);
   width:15rem;
   height: 4px;
-  background-color: var(--highlight-color); /* Vibrant highlight color */
+  background-color: var(--highlight-color); /
   border-radius: 2px;
 }
 
 .skill {
-  background-color: transparent; /* Remove background color */
+  background-color: transparent; 
   padding: 2rem;
   margin-bottom: 3rem;
 }
 
 .skill-title {
   font-size: 2.2rem;
-  color: var(--header-color-h2); /* Stronger text color */
+  color: var(--header-color-h2); 
   margin-bottom: 1rem;
-  font-family: 'Roboto', sans-serif; /* Roboto font */
+  font-family: 'Roboto', sans-serif;
 }
 
 .skill-description {
   font-size: 1.6rem;
-  color: var(--color-text); /* Text color */
+  color: var(--color-text); 
   line-height: 1.6;
-  font-family: 'Roboto', sans-serif; /* Roboto font */
+  font-family: 'Roboto', sans-serif;
 }

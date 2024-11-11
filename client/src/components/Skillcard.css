@@ -1,19 +1,19 @@
 .skill-card {
-  background-color: var(--color-blackcontrast); /* Very dark background color */
-  padding: 3rem; /* Padding around the skill content */
+  background-color: var(--color-blackcontrast); 
+  padding: 3rem;
 
 }
 
 .skill-title {
-  font-size: 2.4rem; /* Font size for skill title */
-  color: var(--header-color-h2); /* Stronger text color */
-  margin-bottom: 1.5rem; /* Bottom margin for title */
-  font-family: 'Roboto', sans-serif; /* Roboto font */
+  font-size: 2.4rem;
+  color: var(--header-color-h2);
+  margin-bottom: 1.5rem; 
+  font-family: 'Roboto', sans-serif; 
 }
 
 .skill-description {
-  font-size: 1.8rem; /* Font size for skill description */
-  color: var(--color-text); /* Text color */
-  line-height: 1.6; /* Line height for better readability */
-  font-family: 'Roboto', sans-serif; /* Roboto font */
+  font-size: 1.8rem; 
+  color: var(--color-text);
+  line-height: 1.6; 
+  font-family: 'Roboto', sans-serif;
 }

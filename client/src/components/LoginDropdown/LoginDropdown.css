@@ -1,40 +1,40 @@
-/* LoginDropdown.css */
+
 
 .login-dropdown {
-  position: absolute; /* Position absolutely */
-  top: 10px; /* Adjust top position as needed */
-  right: 10px; /* Adjust right position as needed */
-  z-index: 100; /* Ensure it's above other content */
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  z-index: 100; 
 }
 
 .lo.login-button:hover {
-  background-color: #0056b3; /* Darker shade of blue on hover */
+  background-color: #0056b3; 
 }
 
-/* Dropdown content container */
+
 .dropdown-content {
   position: absolute;
-  top: 40px; /* Position dropdown below the login button */
+  top: 40px; 
   right: 0;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 10px;
-  z-index: 1000; /* Ensure dropdown is above other content */
-  display: block; /* Initially hide dropdown */
-  min-width: 200px; /* Adjust width as needed */
+  z-index: 1000; 
+  display: block; 
+  min-width: 200px; 
 }
 
-/* Show dropdown content when isOpen is true */
+
 .login-dropdown.open .dropdown-content {
   display: block;
 }
 
-/* Input styles */
+
 .dropdown-content input[type="text"],
 .dropdown-content input[type="password"] {
-  width: calc(100% - 20px); /* Adjust input width */
+  width: calc(100% - 20px); 
   margin: 5px 0;
   padding: 8px;
   border: 1px solid #ccc;
@@ -42,7 +42,7 @@
   font-size: 14px;
 }
 
-/* Button style within dropdown */
+
 .dropdown-content button {
   background-color: #007bff;
   color: white;

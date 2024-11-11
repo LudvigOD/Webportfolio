@@ -101,7 +101,7 @@
   transform: translateY(-5px);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .contact-section {
     padding: 2rem 1rem;

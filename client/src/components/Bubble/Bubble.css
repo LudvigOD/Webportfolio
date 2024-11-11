@@ -1,6 +1,6 @@
 :root {
-  --button-bg-color: #FF7F50; /* Vibrant highlight color for buttons */
-  --button-text-color: #F2F2F2; /* Light color for button text */
+  --button-bg-color: #FF7F50; 
+  --button-text-color: #F2F2F2; 
 }
 
 .bubble-area {
@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  z-index: 10; /* Ensure the bubbles are on top */
+  z-index: 10; 
 }
 
 .bubble-area a {
@@ -20,32 +20,32 @@
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  background-color: var(--button-bg-color); /* Solid color fallback */
-  background-image: linear-gradient(45deg, #FF7F50, #FF6347); /* Gradient for better visual appeal */
+  background-color: var(--button-bg-color); 
+  background-image: linear-gradient(45deg, #FF7F50, #FF6347); 
   color: var(--button-text-color);
   text-decoration: none;
   font-family: 'Montserrat', monospace;
   text-align: center;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7); /* Soft shadow for depth */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7); 
   transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  position: relative; /* Ensure proper stacking context */
-  overflow: hidden; /* Ensure the gradient doesn't overflow */
-  border: 2px solid transparent; /* Transparent border initially */
+  position: relative; 
+  overflow: hidden; 
+  border: 2px solid transparent; 
 }
 
 .bubble-area a:hover {
-  background-color: #FF6347; /* Darker color on hover */
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
-  border-color: #FF6347; /* Border color on hover */
+  background-color: #FF6347; 
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); 
+  border-color: #FF6347; 
 }
 
 .bubble-area .bubble-icon {
-  font-size: 3rem; /* Increase icon size */
-  margin-bottom: 0.2rem; /* Adjust spacing between icon and label */
+  font-size: 3rem; 
+  margin-bottom: 0.2rem;
 }
 
 .bubble-area .bubble-label {
   font-size: 1.2rem;
-  margin-top: 0.0rem; /* Adjust spacing between icon and label */
+  margin-top: 0.0rem;
 }
