@@ -20,12 +20,12 @@ function Proj() {
         <img src="client/public/pexels-picjumbo-com-55570-196655.jpg" alt="Webportfolio Image" />
       </div>
       <div className="proj">
-        <h3>My own React framework</h3>
+        <h3><a>My own React framework</a></h3>
         <h4>Satus: Finished</h4>
         <img src="client/public/pexels-antonio-batinic-2573434-4164418.jpg" alt="React Image" />
       </div>
     </div>
-    
+
   );
 }
 
